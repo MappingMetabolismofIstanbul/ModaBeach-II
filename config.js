@@ -26,7 +26,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
+            image: 'https://i.ibb.co/DHGqYXHh/moda21.png',
             description: '',
             location: {
                 center: [29.0260494127859,40.97982170531968],
@@ -53,10 +53,10 @@ var config = {
         },
         {
             id: '2',
-            alignment: 'centered',
+            alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/fG0T5g0S/moda-2.png',
+            image: 'https://i.ibb.co/tM6Gs51H/moda22.png',
             description: '',
             location: {
                 center: [29.0260494127859,40.97982170531968],
@@ -65,7 +65,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 // {
