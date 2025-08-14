@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,19 +20,49 @@ var config = {
     title: 'Moda Plajı / Moda Beach',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/DHGqYXHh/moda21.png',
+            image: '',
             description: '',
             location: {
                 center: [29.0260494127859,40.97982170531968],
-                zoom: 15,
+                zoom: 12,
                 pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+         {
+            id: '1.2',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/DHGqYXHh/moda21.png',
+            description: '',
+            location: {
+               center: [29.025161234084933,40.979745867810976],
+                zoom: 17,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -59,13 +90,13 @@ var config = {
             image: 'https://i.ibb.co/tM6Gs51H/moda22.png',
             description: '',
             location: {
-                center: [29.0260494127859,40.97982170531968],
-                zoom: 18,
-                pitch: 60,
+                center: [29.025161234084933,40.979745867810976],
+                zoom: 17.6,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
